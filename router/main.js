@@ -1,8 +1,9 @@
-module.exports = function(app) {
-    app.get('/', (req, res) => {
-        res.render('index.html');
+module.exports = function(app, fs) {
+  app.get('/', (req, res) => {
+    res.render('index', {
+      title: "MY node.js",
+      length: 5
     });
-    app.get('/about', (req, res) => {
-        res.render('about.html');
-    });
-};
+  });
+}
+  
