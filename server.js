@@ -9,3 +9,5 @@ app.engine('html', require('ejs').renderFile);
 const server = app.listen(3000, () => {
    console.log("Express server has started on port 3000"); 
 });
+
+app.use(express.static('public'));
