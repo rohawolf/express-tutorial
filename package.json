@@ -1,0 +1,11 @@
+{
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "repository": "https://github.com/rohawolf/express-tutorial.git",
+  "author": "rohawolf <rohawolf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
